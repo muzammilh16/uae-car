@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import CheckIcon from "@mui/icons-material/CheckCircle";
 import CloseIcon from "@mui/icons-material/Cancel";
-import { formatRuppee } from "src/utility";
+import { formatAED, formatRuppee } from "src/utility";
 
 // Format function (keep as-is)
 const formatKeyName = (key) =>

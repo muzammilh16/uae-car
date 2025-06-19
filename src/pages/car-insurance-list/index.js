@@ -1060,7 +1060,7 @@ const CarInsuranceList = () => {
 
                       const labelText = isPassenger
                         ? item.value && Number(item.value) > 0
-                          ? `${item.title} ${formatRuppee(item.value)}`
+                          ? `${item.title}`
                           : item.title // Don't show "0"
                         : item.title;
 
@@ -1139,7 +1139,7 @@ const CarInsuranceList = () => {
                               >
                                 {item?.dropdown_value.map((val) => (
                                   <MenuItem key={val} value={val}>
-                                    {formatRuppee(val)}
+                                    {formatAED(val)}
                                   </MenuItem>
                                 ))}
                               </Select>
